@@ -1,0 +1,23 @@
+{
+  "name": "cs-standard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "doc": "npx docsify serve ./docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuquangthinh/cs-standard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vuquangthinh/cs-standard/issues"
+  },
+  "homepage": "https://github.com/vuquangthinh/cs-standard#readme",
+  "devDependencies": {
+    "docsify": "^4.9.4"
+  }
+}
