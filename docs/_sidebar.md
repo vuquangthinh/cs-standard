@@ -25,3 +25,9 @@
 
 - Background Service
   - [Luồng dữ liệu](background-services/index.md)
+
+- References
+  - [NodeJS](references/nodejs.md)
+  - [Android](references/android.md)
+  - [Swift](references/swift.md)
+  - [DevOps](references/devops.md)

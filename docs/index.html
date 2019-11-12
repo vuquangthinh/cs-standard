@@ -9,11 +9,14 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css" />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css"
+    />
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
 
     <style>
-      @import url('https://fonts.googleapis.com/css?family=Gruppo');
+      @import url("https://fonts.googleapis.com/css?family=Gruppo");
     </style>
   </head>
   <body>
@@ -25,32 +28,34 @@
       mermaid.initialize({ startOnLoad: false });
 
       window.$docsify = {
-        name: 'Common solution',
-        repo: 'https://github.com/docsifyjs/docsify/',
+        name: "Common solution",
+        repo: "https://github.com/docsifyjs/docsify/",
         auto2top: true,
         loadSidebar: true,
         search: {
           noData: {
-            '/': 'Không tìm thấy!',
+            "/": "Không tìm thấy!"
           },
-          paths: 'auto',
+          paths: "auto",
           placeholder: {
-            '/': 'Tìm kiếm',
-          },
+            "/": "Tìm kiếm"
+          }
         },
 
         markdown: {
           renderer: {
             code: function(code, lang) {
-              if (lang === 'mermaid') {
+              if (lang === "mermaid" || lang === "diagram") {
                 return (
-                  '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + '</div>'
+                  '<div class="mermaid">' +
+                  mermaid.render("mermaid-svg-" + num++, code) +
+                  "</div>"
                 );
               }
               return this.origin.code.apply(this, arguments);
-            },
-          },
-        },
+            }
+          }
+        }
       };
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
