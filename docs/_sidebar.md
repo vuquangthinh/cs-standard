@@ -2,6 +2,9 @@
   - [Giới thiệu nhanh](quickstart.md)
   - [Network TCP/IP](cheatsheet-tcp-ip.md)
   - [Cấu trúc thư mục và quy tắc](code-convention.md)
+    - [ReactJS](structures/react-js.md)
+    - [ReactNative](structures/react-native.md)
+    - [Flutter](structures/flutter.md)
 
 - Đăng nhập / đăng xuất
   - [Luồng dữ liệu](authentication/index.md)
@@ -16,7 +19,13 @@
 - Lấy & hiển thị dữ liệu
   - [Luồng dữ liệu](data-services/index.md)
   - [Fetch Detail](data-services/detail.md)
-  - [Fetch List](data-services/list.md)
+    - [ReactJS](data-services/frontend/react-js-fetch-detail.md)
+    - [ReactNative](data-services/frontend/react-native-fetch-detail.md)
+    - [Flutter](data-services/frontend/flutter-fetch-detail.md)
+  - [Fetch List](data-services/listing.md)
+    - [ReactJS](data-services/frontend/react-js-fetch-list.md)
+    - [ReactNative](data-services/frontend/react-native-fetch-list.md)
+    - [Flutter](data-services/frontend/flutter-fetch-list.md)
   - [Fetch Infinite](data-services/infinite.md)
 
 - Xử lý dữ liệu nhập
