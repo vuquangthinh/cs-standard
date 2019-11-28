@@ -53,3 +53,4 @@ sequenceDiagram
   else exception
     A->>C: Exception (422, 400, 500...)
   end
+```

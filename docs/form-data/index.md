@@ -6,7 +6,7 @@ TBD
 
 
 
-Input Field Interface
+Input Field Interface (Antd Design Format)
 
 PropTypes: {
   value: any,
