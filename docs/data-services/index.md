@@ -85,5 +85,5 @@ Kết quả trả về 200:
 }
 ```
 
-*note: Để tránh trường hợp xung đột với 1 số thư viện request client => kết quả trả về của api nên là object (example: thư viện Volley sử dụng JSONArray / JSONObject là 2 kiểu dữ liệu khác nhau gây lỗi khi parse JSON)*
+*note: Để tránh trường hợp xung đột với 1 số thư viện request client => kết quả trả về của api nên là object (VD: thư viện Volley sử dụng JSONArray / JSONObject là 2 kiểu dữ liệu khác nhau gây lỗi khi parse JSON)*
 
