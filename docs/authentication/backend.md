@@ -1,6 +1,7 @@
-TBD
 
-# best practice
+Để đảm bảo ẩn thông tin (tương đối) với các trình log, sử dụng các phương thức như POST / PUT / PATCH với thông tin nhạy cảm được truyền qua Body.
+
+# Structure
 
 POST /auth/basic
 {
@@ -15,3 +16,5 @@ POST /auth/<provider>
 }
 
 
+Cài đặt trên NestJs:
+// TODO: Link to nestjs module

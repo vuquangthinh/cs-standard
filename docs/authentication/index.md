@@ -1,5 +1,6 @@
 
-Authenticate with username / password
+Xử lý đăng nhập (dựa trên passport.js)
+
 ```mermaid
 sequenceDiagram
   participant C as Client
@@ -13,7 +14,8 @@ sequenceDiagram
   end
 ```
 
-Authenticate with <provider> (facebook)
+Xử lý đăng nhập với kênh đăng nhập bên thứ 3
+Authenticate with <provider> (VD: facebook)
 ```mermaid
 sequenceDiagram
   participant C as Client
@@ -41,7 +43,8 @@ sequenceDiagram
   end
 ```
 
-Request with credentials
+Lấy thông tin của đối tượng đăng nhập (thường là người dùng)
+Thông tin ngữ cảnh (Authorization token được truyền thông qua Header của giao thức Http)
 ```mermaid
 sequenceDiagram
   participant C as Client
