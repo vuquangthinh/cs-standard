@@ -24,3 +24,6 @@ _Best practice:_
 - File less nên cùng tên với file jsx import nó. (Nhằm đảm bảo tính duy nhất, việc kế thừa có thể thực hiện nhưng không nên phức tạp - Nếu có hơn 2 file jsx cùng sử dụng 1 file less sẽ làm tăng tính kết dính -> khó sửa đổi vì không kiểm soát được mức độ ảnh hưởng đến các Component).
 - File jsx chứa component nên có tên trùng với tên Component chứa nó (phục vụ thuận lợi cho việc tìm kiếm component).
 - Tên file cần tối giản.
+- Với Component có mức độ phức tạp nhỏ thì có tạo file với tên <Component>.js(x?). Khi độ phức tạp của file Component tăng và cần chia nhỏ thành các component nhỏ hơn (không nên để 1 file code có kích thước lớn > 600 - 800 dòng vì khó kiểm soát được chất lượng code cũng như dễ nát code).
+- File <Component>.js(x?) khi chia nhỏ có thể tạo thư mục với tên Component, file index.js(x?) chứa code của file cũ. Các component, chức năng tách nhỏ từ file sẽ được đặt cùng cấp với file index. Các file có sử dụng component cũ sẽ không cần sửa đổi.
+- Hạn chế tối đa việc import chéo component nhằm đảm bảo tính độc lập

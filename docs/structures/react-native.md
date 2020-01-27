@@ -1,3 +1,3 @@
 
 
--- Tham khảo react native
+-- Tham khảo reactjs

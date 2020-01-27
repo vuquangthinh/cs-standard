@@ -24,3 +24,19 @@ Win + R <enter> cmd <enter> ipconfig <enter>
 
 
 
+# PORT
+
+MAC:
+
+Lấy process chiếm cổng <port>
+```
+lsof -i :<port>
+```
+Kill process
+```
+kill -9 <processid>
+```
+
+
+Window:
+taskfm - ko nhớ
