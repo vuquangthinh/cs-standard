@@ -39,4 +39,4 @@ kill -9 <processid>
 
 
 Window:
-taskfm - ko nhớ
+taskfm - :|
