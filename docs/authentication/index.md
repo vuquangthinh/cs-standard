@@ -35,7 +35,7 @@ sequenceDiagram
   participant C as Client
   participant A as AuthServer
 
-  C->>A: POST /auth/refresh { token }
+  C->>A: POST /auth/refresh { refresh_token }
   alt success
     A->>C: { access_token, refresh_token }
   else exception
