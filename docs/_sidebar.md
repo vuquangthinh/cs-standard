@@ -6,6 +6,9 @@
     - [ReactNative](structures/react-native.md)
     - [Flutter](structures/flutter.md)
 
+- Git-flow
+  - [Git-flow](git-flow/git-flow.md)
+
 - Đăng nhập / đăng xuất
   - [Luồng dữ liệu](authentication/index.md)
   - [Backend](authentication/backend.md)
@@ -41,3 +44,4 @@
   - [Android](references/android.md)
   - [Swift](references/swift.md)
   - [DevOps](references/devops.md)
+

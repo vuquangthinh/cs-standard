@@ -10,6 +10,7 @@
 - [Material UI](https://material-ui.com/)
 - [Lodash](https://lodash.com)
 - [MomentJS](https://momentjs.com)
+- [DayJS](https://day.js.org/) #light weight date library without locale
 
 # Backend
 - [NestJS](https://docs.nestjs.com/) # recommended
