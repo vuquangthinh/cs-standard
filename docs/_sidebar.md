@@ -5,6 +5,7 @@
     - [ReactJS](structures/react-js.md)
     - [ReactNative](structures/react-native.md)
     - [Flutter](structures/flutter.md)
+  - [Tính chủ động và bị động](core-concepts/active-passive.md)
 
 - Git-flow
   - [Git-flow](git-flow/git-flow.md)
