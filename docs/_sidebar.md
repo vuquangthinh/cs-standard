@@ -29,7 +29,8 @@
     - [ReactJS](data-services/frontend/react-js-fetch-list.md)
     - [ReactNative](data-services/frontend/react-native-fetch-list.md)
     - [Flutter](data-services/frontend/flutter-fetch-list.md)
-  - [Fetch Infinite](data-services/infinite.md)
+  - [Fetch Infinite](data-services/infinitie.md)
+    
 
 - Xử lý dữ liệu nhập
   - [Luồng dữ liệu](form-data/index.md)
