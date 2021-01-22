@@ -31,7 +31,7 @@
     - [ReactNative](data-services/frontend/react-native-fetch-list.md)
     - [Flutter](data-services/frontend/flutter-fetch-list.md)
   - [Fetch Infinite](data-services/infinitie.md)
-    
+
 
 - Xử lý dữ liệu nhập
   - [Luồng dữ liệu](form-data/index.md)
@@ -47,3 +47,10 @@
   - [Swift](references/swift.md)
   - [DevOps](references/devops.md)
 
+- IDE configs
+  - [Editorconfig](ide/editor.config.md)
+  - [Eslint](ide/eslint.config.md)
+  - [Prettier](ide/prettier.config.md)
+
+- CI/CD:
+  - [Gitlab](ci-cd/gitlab.md)
