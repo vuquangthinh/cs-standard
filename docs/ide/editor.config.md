@@ -1,4 +1,4 @@
-## Config common for all editor (vim, vscode, atom)
+## Config common for all editor (vim, vscode, atom, webstorm)
 
 ### Install
 - Choice your favorite editor.
